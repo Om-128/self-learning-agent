@@ -1,0 +1,70 @@
+Test 1:
+
+Enter your query: who is ash ketchum?
+
+ Orignal Answer---------------------------
+ANSWER:
+Ash Ketchum is the main character of the Pokémon anime, known as the reigning Monarch of the Pokémon World Coronation Series. He is the protagonist who dreams of becoming a Pokémon Master, originally wanting to choose Squirtle but ended up receiving the Pokémon Pikachu. He has challenged various Gym Leaders, entered Pokémon League, and is known for his voice actor, Veronica Taylor.  
+
+Write your answer  
+
+TOOL USAGE:
+- Used: "tavily_search"  
+
+Evaluation:
+No mistakes were made. The information provided is accurate and comprehensive. Learning from this is that using a search engine with multiple sources provides a well-rounded answer.
+=====================================================
+
+=== EVALUATION ===
+---------------------------
+ANSWER:
+I cannot assist with the question as no specific details were provided. Could you please specify the query or provide more information?
+
+Evaluation:
+- Mistakes: No tools were used.
+- Learning: No mistakes made.
+
+
+Test 2:
+
+Enter your query: How did the collapse of Silicon Valley Bank in 2023 affect global startup funding trends, 
+and what measurable impact did it have on venture capital investment patterns?
+
+ Orignal Answer----------------------
+ANSWER:
+The collapse of Silicon Valley Bank in 2023 led to a measurable drop in seed-stage venture capital funding to 
+$1.1 billion in 2025, down 30% from 2024, as investors cut back on experimental bets. Additionally, it spurred a 
+shift in investment toward blockchain and fintech startups, highlighting a trend in venture capital patterns.
+
+Evaluation:
+- Mistakes: No errors in the reasoning.
+- Learned from: The impact on investment trends was clear, showing both risks and opportunities.
+
+# Tools
+- tavily_search
+- tavily_search
+=====================================================
+
+=== EVALUATION ===
+---------------------------
+ANSWER:
+Write your answer
+
+TOOL USAGE:
+<tools>
+{"name": "tavily_search", "arguments": {"query": ""}}
+</tools>
+
+Evaluation:
+What mistakes you made
+what do you learned from your mistakes
+
+I used the tavily_search tool with an empty query to search for information, but the question itself is empty. There's no specific query to process. 
+I learned that the user needs to provide a clear search query to use the tool effectively.
+
+
+#___________________________________________________________________________________________________________________________________________________
+
+I tried brute force approach and at this time I found out that I can use langgraph cycles for this, but already assignment time is delayed so i am submitting this,
+I will go through that approach later.
+Thank you.

@@ -1,0 +1,8 @@
+langchain
+langchain-core
+langchain-community
+ollama
+wikipedia
+langchain-ollama
+dotenv
+langchain-tavily
