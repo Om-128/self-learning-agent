@@ -6,3 +6,8 @@ wikipedia
 langchain-ollama
 dotenv
 langchain-tavily
+langgraph
+langgraph-cli
+langgraph-api
+langsmith
+langchain-groq

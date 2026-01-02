@@ -62,6 +62,7 @@ agent = create_agent(
     system_prompt=SYSTEM_PROMPT
 )
 
+
 question = input("Enter your query: ")
 answer = agent.invoke({"messages": question})
 
