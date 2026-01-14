@@ -54,7 +54,7 @@ what do you learned from your mistakes
 
 
 ''' Define Agent '''
-llm = ChatOllama(model="qwen3:0.6b",temperature=0.7)
+llm = ChatOllama(model="llama3.1:8b",temperature=0.7)
 
 agent = create_agent(
     model=llm,

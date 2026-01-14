@@ -11,3 +11,12 @@ langgraph-cli
 langgraph-api
 langsmith
 langchain-groq
+astrapy
+cassio
+chromadb
+tiktoken
+langchainhub
+langchain-huggingface
+langchain-text-splitters
+sentence-transformers
+google
